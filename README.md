@@ -1,22 +1,14 @@
-# JARVIS Enterprise — Video presentazione
+# JARVIS Enterprise
 
-Video promozionale di presentazione di JARVIS Enterprise, realizzato sulla base della presentazione aziendale fornita.
+## Guarda la presentazione
 
-## File
-- `JARVIS_Enterprise_Presentazione.mp4` — video 1920×1080, formato MP4 (H.264).
-- `JARVIS_Enterprise_Copertina.png` — copertina del video.
+Apri la pagina `index.html` con GitHub Pages per riprodurre il video direttamente nel browser.
 
-## Pubblicazione su GitHub
-1. Crea un nuovo repository GitHub, ad esempio `jarvis-enterprise-presentation`.
-2. Carica il video MP4 e la copertina PNG nella cartella principale.
-3. Incolla nel README del repository:
+### Pubblicazione
+1. Carica tutti i file di questa cartella nella radice di un nuovo repository GitHub.
+2. Apri **Settings → Pages**.
+3. In **Build and deployment**, seleziona **Deploy from a branch**.
+4. Seleziona il branch `main` e la cartella `/ (root)`, poi premi **Save**.
+5. Attendi la pubblicazione e visita l'indirizzo GitHub Pages mostrato nella stessa sezione.
 
-   ```markdown
-   # JARVIS Enterprise
-   Guarda la presentazione: [Video MP4](./JARVIS_Enterprise_Presentazione.mp4)
-   ```
-
-4. Per mostrare il video in una pagina web GitHub Pages, usa un player HTML con il file MP4 nel repository.
-
-## Nota
-Il video presenta le funzionalità descritte nella documentazione commerciale. Prima della pubblicazione, verifica che ogni funzione e ogni caratteristica di sicurezza dichiarata corrispondano alla versione effettivamente disponibile del software.
+Il file MP4 è incluso nel repository: il player HTML lo riproduce dalla stessa cartella.
